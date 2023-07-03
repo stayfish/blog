@@ -22,11 +22,18 @@
 
   <url>
     <loc>https://stayfish.githu,b.io/blog</loc>
-    <lastmod>2023-07-02</lastmod>
+    <lastmod>2023-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://stayfish.githu,b.io/blog/tags/test/</loc>
+    <lastmod>2023-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
