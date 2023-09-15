@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>markdown中使用emoji</title>
+      <link href="/blog/2023/09/15/markdown%E4%B8%AD%E4%BD%BF%E7%94%A8emoji/"/>
+      <url>/blog/2023/09/15/markdown%E4%B8%AD%E4%BD%BF%E7%94%A8emoji/</url>
+      
+        <content type="html"><![CDATA[<p>冲浪的时候怎么能不用 emoji，写文档的时候也是一样的，不过我们不可能每次都去网上粘贴，特别是一些常用的 emoji，怎么快速的打出来还是挺有用的 😡，本文介绍三种方式</p><p>第一种方式更简单点，就是在 <a href="https://gist.github.com/rxaviers/7360908">^1</a> 中查找你想要的表情包，进入页面后，如下图</p><p><img src="markdown%E4%B8%AD%E4%BD%BF%E7%94%A8emoji/emoji1.png" alt="emoji1"></p><p>比如我选择流汗黄豆，然后在 markdown中输入</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:sweat<span class="emphasis">_smile:</span></span><br></pre></td></tr></table></figure><p>效果为： 😅</p><p>第二种方式参考了 <a href="https://juejin.cn/post/6983870478674821128">^2</a>，首先我们需要在 <a href="https://www.emojiall.com/zh-hans/all-emojis?type=normal">^3</a> 中找到想要的表情，然后直接复制就好了</p><p><img src="markdown%E4%B8%AD%E4%BD%BF%E7%94%A8emoji/emoji2.png" alt="emoji2"></p><p>选中复制即可，效果为：🥵</p><p>第三种方式也参考了 <a href="https://juejin.cn/post/6983870478674821128">^2</a>，首先在 <a href="https://apps.timwhitlock.info/emoji/tables/unicode#">^4</a> 中选想要的表情，</p><p><img src="markdown%E4%B8%AD%E4%BD%BF%E7%94%A8emoji/emoji3.png" alt="emoji3"></p><p>然后复制框选中的 Unicode 代码，比如我选的是 <code>U+1F621</code>，复制后，去掉 <code>U+</code> 然后改为 <code>&amp;#x</code>，末尾添加 <code>;</code> 再复制到 markdown 中，具体的，复制的内容是</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;#x1F621;</span><br></pre></td></tr></table></figure><p>效果为：😡</p><h2 id="References">References</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>从RNN到LSTM和GRU</title>
       <link href="/blog/2023/09/14/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CRNN/"/>
       <url>/blog/2023/09/14/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CRNN/</url>
