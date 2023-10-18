@@ -6,7 +6,7 @@
   <link href="https://stayfish.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://stayfish.github.io/blog/"/>
-  <updated>2023-10-18T17:36:16.212Z</updated>
+  <updated>2023-10-18T17:41:23.734Z</updated>
   <id>https://stayfish.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://stayfish.github.io/blog/2023/10/19/tmux%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <id>https://stayfish.github.io/blog/2023/10/19/tmux%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
     <published>2023-10-18T17:23:23.000Z</published>
-    <updated>2023-10-18T17:36:16.212Z</updated>
+    <updated>2023-10-18T17:41:23.734Z</updated>
     
     <content type="html"><![CDATA[<h2 id="tmux-基本概念">tmux 基本概念</h2><p>tmux 是一个终端复用器。平时在终端中运行的程序，如果我们把终端关闭了，那么运行的程序就断开了，比如我们 ssh 连接远程服务器，如果 ssh 连接中断了，那么我们跑的程序也就断了。tmux 就能解决这个痛点。除此以外 tmux 还能用于终端分屏之类的功能。</p><p>首先介绍 tmux 中的基本概念，会话(session)，窗口(windwos)，窗格(pane)。会话是于操作系统的一次交互，每个会话可以有多个窗口（类似于浏览器的标签页），每个窗口可以有多个窗格（类似于当前分屏）</p><p><img src="./tmux-basic.png" alt="tmux 组件"></p><p><a href="https://github.com/tmux/tmux/wiki/Getting-Started">Getting Started - tmux/tmux Wiki</a> 中提到</p><blockquote><p>In summary:</p><ul><li>Programs run in terminals in panes, which each belong to one window.</li><li>Each window has a name and one active pane.</li><li>Windows are linked to one or more sessions.</li><li>Each session has a list of windows, each with an index.</li><li>One of the windows in a session is the current window.</li><li>Sessions are attached to one or more clients, or are detached (attached to no clients).</li><li>Each client is attached to one session.</li></ul></blockquote><p>前缀键：当我们进入 tmux 中后，有大量快捷键，使用方式是，先按前缀键，然后再按对应的某个键，比如在 tmux 中查看帮助的使用方法为，先使用前缀键 ctrl+b，然后按 ?。后文中我们把前缀键简写为 prefix，比如获取帮助的快捷键，我会在后文中写作 prefix ?，默认的 prefix 是 ctrl + B</p><h2 id="tmux-基本使用">tmux 基本使用</h2><p>首先输入 tmux 相当于开启了一个会话（新建一个无名称的会话），然后会话中会默认新建一个窗口</p><p><img src="./tmux-ui.png" alt="tmux 界面"></p><table><thead><tr><th>命令</th><th>操作</th><th>快捷键</th></tr></thead><tbody><tr><td><code>tmux new -s &lt;name&gt;</code></td><td>创建会话</td><td></td></tr><tr><td><code>tmux detach</code></td><td>断开会话，后台运行</td><td>prefix d</td></tr><tr><td><code>tmux ls</code></td><td>查看所有会话</td><td></td></tr><tr><td><code>tmus a -t &lt;name&gt;</code></td><td>进入某个会话</td><td></td></tr><tr><td><code>tmux switch -t &lt;name&gt;</code></td><td>切换到某个对话</td><td>prefix s</td></tr><tr><td><code>tmux kill-session -t &lt;name&gt;</code></td><td>关闭某个会话</td><td></td></tr></tbody></table><p>上述指令中，a 指 attach，t 指 target，s 指 session</p><h2 id="推荐阅读">推荐阅读</h2><p><a href="http://louiszhai.github.io/2017/09/30/tmux/#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">tmux使用手册|luois blog</a><br><a href="https://zhuanlan.zhihu.com/p/639084118">为什么终端开发离不开 Tmux - 知乎</a><br><a href="https://github.com/tmux/tmux/wiki">tmux Wiki</a></p>]]></content>
     
