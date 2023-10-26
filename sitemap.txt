@@ -1,5 +1,9 @@
-https://stayfish.github.io/blog/2023/10/24/python-%E8%BF%AD%E4%BB%A3/
+https://stayfish.github.io/blog/2023/10/27/python-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0/
 https://stayfish.github.io/blog/2023/08/23/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%92%8C%E7%B1%BB%E5%9B%BE/
+https://stayfish.github.io/blog/2023/09/14/%E4%BB%8ERNN%E5%88%B0LSTM%E5%92%8CGRU/
+https://stayfish.github.io/blog/2023/10/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E5%86%B3%E7%AD%96%E6%A0%91%EF%BC%8C%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%92%8CXGBoost/
+https://stayfish.github.io/blog/2023/10/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/
+https://stayfish.github.io/blog/2023/10/24/python-%E8%BF%AD%E4%BB%A3/
 https://stayfish.github.io/blog/2023/10/14/python-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/
 https://stayfish.github.io/blog/2023/10/24/python-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E6%9C%BA%E5%88%B6/
 https://stayfish.github.io/blog/2023/09/27/python-%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0/
@@ -9,12 +13,9 @@ https://stayfish.github.io/blog/2023/10/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%
 https://stayfish.github.io/blog/2023/09/27/python-%E6%89%93%E5%8C%85%E5%92%8C%E8%A7%A3%E5%8C%85/
 https://stayfish.github.io/blog/2023/10/23/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E6%A6%82%E8%BF%B0/
 https://stayfish.github.io/blog/2023/10/19/tmux%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/
-https://stayfish.github.io/blog/2023/10/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/
-https://stayfish.github.io/blog/2023/10/16/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E5%86%B3%E7%AD%96%E6%A0%91%EF%BC%8C%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%92%8CXGBoost/
 https://stayfish.github.io/blog/404/index.html
 https://stayfish.github.io/blog/about/index.html
 https://stayfish.github.io/blog/categories/index.html
-https://stayfish.github.io/blog/2023/09/14/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CRNN/
 https://stayfish.github.io/blog/2023/08/25/%E7%BB%99hexo%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/
 https://stayfish.github.io/blog/2023/09/15/markdown%E4%B8%AD%E4%BD%BF%E7%94%A8emoji/
 https://stayfish.github.io/blog/2023/09/11/30-days-of-pandas/
@@ -44,3 +45,4 @@ https://stayfish.github.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
 https://stayfish.github.io/blog/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/
 https://stayfish.github.io/blog/categories/%E7%BD%91%E8%AF%BE%E7%AC%94%E8%AE%B0/%E5%8D%97%E5%A4%A7os2023/
 https://stayfish.github.io/blog/categories/hexo/
+https://stayfish.github.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/ai/
